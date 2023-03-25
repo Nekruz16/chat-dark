@@ -61,7 +61,7 @@ function sendMessage(event) {
 }
 
 function getResponseFromChatGPT(message, typingMessage) {
-  const openaiApiKey = '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';
+  const openaiApiKey = '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';
   const endpointUrl = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
 
   const headers = {
